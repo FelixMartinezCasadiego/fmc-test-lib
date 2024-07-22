@@ -1,5 +1,11 @@
-import "../../index.css";
+import { Box, Typography } from "@mui/material";
 
 export const Button = () => {
-  return <button className="bg-red-800">Buttonsito</button>;
+  return (
+    <>
+      <Box bgcolor={"red"}>
+        <Typography>Aca 0.2.6 !!</Typography>
+      </Box>
+    </>
+  );
 };
