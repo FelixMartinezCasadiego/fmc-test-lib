@@ -1,10 +1,15 @@
 import { Box, Typography } from "@mui/material";
 
-export const Button = () => {
+interface Props {
+  handleClick: string;
+  title: string;
+}
+
+export const Button = ({ handleClick, title }: Props) => {
   return (
     <>
-      <Box bgcolor={"red"}>
-        <Typography>Aca 0.2.6 !!</Typography>
+      <Box bgcolor={"red"} onClick={() => console.log(handleClick)}>
+        <Typography>{title} 0.3.0 !!</Typography>
       </Box>
     </>
   );

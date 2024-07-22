@@ -3,7 +3,7 @@ import { Button } from "../lib/components";
 function App() {
   return (
     <>
-      <Button />
+      <Button handleClick={""} title={""} />
     </>
   );
 }
