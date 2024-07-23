@@ -7,6 +7,7 @@
   ],
   "main": "./dist/fgmc-test.umd.cjs",
   "module": "./dist/fgmc-test.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/fgmc-test.js",
