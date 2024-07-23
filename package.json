@@ -1,6 +1,6 @@
 {
   "name": "fgmc-test",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "type": "module",
   "files": [
     "dist"
@@ -12,8 +12,10 @@
     ".": {
       "import": "./dist/fgmc-test.js",
       "require": "./dist/fgmc-test.umd.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
+  "sideEffects": false,
   "scripts": {
     "dev": "vite",
     "prebuild": "rm -rf dist",
