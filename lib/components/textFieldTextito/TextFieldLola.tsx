@@ -2,6 +2,7 @@ import "../../tailwind.css";
 import packageJson from "../../../package.json";
 
 import { Box, Typography } from "@mui/material";
+import snowCold from "../../assets/snow_cold.svg";
 
 export const TextFieldLola = () => {
   return (
@@ -14,6 +15,8 @@ export const TextFieldLola = () => {
             Hello world! {packageJson.version}
           </h1>
         </div>
+
+        <Box component={"img"} alt="img" src={snowCold} width={50} />
       </Box>
     </>
   );

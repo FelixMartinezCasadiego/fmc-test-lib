@@ -1,11 +1,9 @@
-import { ButtonShadcn, TextFieldLola } from "../lib/components";
+import { TextFieldLola } from "../lib/components";
 
 function App() {
   return (
     <>
       <TextFieldLola />
-
-      <ButtonShadcn />
     </>
   );
 }
