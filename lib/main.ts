@@ -1,3 +1,3 @@
 import "./tailwind.css";
 
-export { Button, TextFieldLola } from "./components/index";
+export { Button, TextFieldLola, ButtonShadcn } from "./components/index";
