@@ -3,6 +3,7 @@ import packageJson from "../../../package.json";
 
 import { Box, Typography } from "@mui/material";
 import snowCold from "../../assets/snow_cold.svg";
+import lightOn from "./assets/lightOn.svg";
 
 export const TextFieldLola = () => {
   return (
@@ -17,6 +18,8 @@ export const TextFieldLola = () => {
         </div>
 
         <Box component={"img"} alt="img" src={snowCold} width={50} />
+
+        <Box component={"img"} alt="img" src={lightOn} width={50} />
       </Box>
     </>
   );
